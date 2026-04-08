@@ -9,6 +9,8 @@
     const width = Math.min(clientWidth, maxWidth)
     const fontSize = (width / designWidth) * rootValue
     document.documentElement.style.fontSize = `${fontSize}px`
+    document.documentElement.style.width = `${width}px`
+    document.documentElement.style.margin = '0 auto'
   }
 
   setRem()
