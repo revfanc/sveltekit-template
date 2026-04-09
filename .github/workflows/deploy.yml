@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: registry.cn-hangzhou.aliyuncs.com
+  REGISTRY: crpi-s32gdw7kjcj0o02s.cn-beijing.personal.cr.aliyuncs.com
   IMAGE_NAME: sveltekit-app
 
 jobs:
