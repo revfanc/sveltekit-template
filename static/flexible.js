@@ -1,7 +1,7 @@
 ;(function () {
   const designWidth = 375 // 设计稿宽度
   const rootValue = 16 // tailwind 的基础字体大小
-  const maxWidth = 750 // 最大显示宽度（对应 750px 设计稿或 2 倍 375px）
+  const maxWidth = 375 // 最大显示宽度（对应 750px 设计稿或 2 倍 375px）
 
   function setRem() {
     const clientWidth = document.documentElement.clientWidth
